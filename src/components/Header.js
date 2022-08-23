@@ -34,15 +34,15 @@ const Header = () => {
 
   return (
     <Flex boxShadow="xl" alignItems="center" p={4} gap={4} bg={'whiteAlpha.50'}>
-      {!hamburgerClicked ? (
+      {!hamburgerClicked || !isNotSmallerScreen ? (
         <HStack gap={5} direction="row">
           <Link to="/">
             <FaHome fontSize="25px" />
           </Link>
-          <a href="https://github.com/setback-king">
+          <a href="https://github.com/setback-king" target="_blank">
             <FaGithub fontSize="25px" />
           </a>
-          <a href="https://linkedin.com/in/ben-zentek">
+          <a href="https://linkedin.com/in/ben-zentek" target="_blank">
             <FaLinkedin fontSize="25px" />
           </a>
         </HStack>

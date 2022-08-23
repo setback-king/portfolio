@@ -1,0 +1,49 @@
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+    transform: rotateX(-10deg);
+  }
+  to {
+    opacity: 1;
+    transform: rotateX(0);
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(-200%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  0% {
+    transform: translateX(200%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.fade {
+  animation: transitionIn 0.75s;
+}
+
+.slide {
+  animation: slideIn 1.5s;
+}
+
+.slideRight {
+  animation: slideInRight 1.5s;
+}
+
+.home {
+  overflow: hidden;
+}
+
+.imgC {
+  width: 300px;
+  height: 300px;
+}

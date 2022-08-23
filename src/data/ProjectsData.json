@@ -1,0 +1,90 @@
+[
+  {
+    "title": "Mock Twitter",
+    "img": "assets/mock-twitter/Screen Shot 2022-07-20 at 11.33.07 AM.png",
+    "img2": "assets/mock-twitter/Screen Shot 2022-07-20 at 11.34.09 AM.png",
+    "img3": "assets/mock-twitter/Screen Shot 2022-08-23 at 3.16.04 PM.png",
+    "img4": "",
+    "description": "A Twitter replica that allows users to create an account, tweet, and search for trending news stories. Firebase is used to authenticate the login credentials of each user, as well as to store and generate the tweet data that is created.",
+    "live": "https://setback-king.github.io/mock-twitter/",
+    "code": "https://github.com/setback-king/mock-twitter",
+    "index": "1"
+  },
+  {
+    "title": "Daniel Barez Portfolio",
+    "img": "assets/dj-portfolio/Screen Shot 2022-08-23 at 3.33.59 PM.png",
+    "img2": "assets/dj-portfolio/Screen Shot 2022-08-23 at 3.34.54 PM.png",
+    "img3": "assets/dj-portfolio/Screen Shot 2022-08-23 at 3.37.48 PM.png",
+    "img4": "",
+    "description": "This interactive portfolio was created for a client. Using React and CSS, I was able to fulfill the vision that this client, a graphic designer, had in mind to showcase their past works.",
+    "live": "",
+    "code": "https://github.com/setback-king/dj-portfolio",
+    "index": "2"
+  },
+  {
+    "title": "Frank's Farm Supply",
+    "img": "assets/franks/Screen Shot 2022-08-23 at 3.25.34 PM.png",
+    "img2": "assets/franks/Screen Shot 2022-07-20 at 11.37.51 AM.png",
+    "img3": "assets/franks/Screen Shot 2022-07-20 at 11.38.11 AM.png",
+    "img4": "",
+    "description": "An eCommerce farm supply app, that allows users to see the available inventory and add items to the cart for checkout. Tractor Supply Co.® was the inspiration behind this project.",
+    "live": "https://setback-king.github.io/shopping-cart/",
+    "code": "https://github.com/setback-king/shopping-cart",
+    "index": "3"
+  },
+  {
+    "title": "Flower Memorization Game",
+    "img": "assets/flower-game/Screen Shot 2022-07-20 at 11.47.37 AM.png",
+    "img2": "assets/flower-game/Screen Shot 2022-08-23 at 4.14.41 PM.png",
+    "img4": "",
+    "description": "Memorization game that prompts users to keep selecting a unique flower card. Upon selection, the card positions are shuffled, resulting in an increased difficulty.",
+    "live": "https://setback-king.github.io/memory-card/",
+    "code": "https://github.com/setback-king/memory-card",
+    "index": "4"
+  },
+  {
+    "title": "Local Library",
+    "img": "assets/local-library/Screen Shot 2022-07-20 at 11.41.02 AM.png",
+    "img2": "assets/local-library/Screen Shot 2022-08-23 at 3.46.13 PM.png",
+    "img3": "assets/local-library/Screen Shot 2022-08-23 at 3.47.26 PM.png",
+    "img4": "",
+    "description": "Library storage app that allows users to add information about books that they have read, or plan to read. This data is stored in the users local storage.",
+    "live": "https://setback-king.github.io/library/",
+    "code": "https://github.com/setback-king/library",
+    "index": "5"
+  },
+  {
+    "title": "Quizzical",
+    "img": "assets/quizzical/Screen Shot 2022-07-20 at 11.43.57 AM.png",
+    "img2": "assets/quizzical/Screen Shot 2022-07-20 at 11.44.36 AM.png",
+    "img3": "assets/quizzical/Screen Shot 2022-07-20 at 11.44.58 AM.png",
+    "img4": "",
+    "description": "This app utilizes a quiz API to generate trivia questions for the user. Upon load, the user is prompted to select a category and difficulty. After answers are chosen, the user is provided instant feedback of how many they got right and the answers to the ones they got wrong.",
+    "live": "https://setback-king.github.io/quizzical/",
+    "code": "https://github.com/setback-king/quizzical",
+    "index": "6"
+  },
+  {
+    "title": "Generic Weather App",
+    "img": "assets/generic-weather/Screen Shot 2022-07-20 at 11.42.38 AM.png",
+    "img2": "assets/generic-weather/Screen Shot 2022-08-23 at 4.09.16 PM.png",
+    "img3": "assets/generic-weather/Screen Shot 2022-08-23 at 4.10.08 PM.png",
+    "img4": "",
+    "description": "A generic weather app the provides a variety of weather data to the user. Data is retrieved by using the OpenWeatherMap API. Users have the ability to convert the data between the Celcius and Fahrenheit scales. Vanilla Javascript was primarily used to create this app.",
+    "live": "https://setback-king.github.io/weather-api/",
+    "code": "https://github.com/setback-king/weather-api",
+    "index": "7"
+  },
+  {
+    "title": "CV Generator",
+    "img": "assets/cv-generator/Screen Shot 2022-07-20 at 11.49.07 AM.png",
+    "img2": "assets/cv-generator/Screen Shot 2022-08-23 at 4.16.55 PM.png",
+    "img3": "assets/cv-generator/Screen Shot 2022-08-23 at 4.16.40 PM.png",
+    "img4": "",
+    "description": "App that live generates and formats a CV from the user's inputs. This project helped me practice using React components, states, and props.",
+    "live": "https://setback-king.github.io/cv-app/",
+    "code": "https://github.com/setback-king/cv-app",
+    "index": "8",
+    "last": true
+  }
+]

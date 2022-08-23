@@ -3,7 +3,14 @@ import { Flex } from '@chakra-ui/react';
 
 const NoPath = () => {
   return (
-    <Flex bg={'blackAlpha.200'} fontSize="30px" justify="center" flex="1" p={4}>
+    <Flex
+      bg={'blackAlpha.200'}
+      fontSize="30px"
+      justify="center"
+      flex="1"
+      p={4}
+      className="fade"
+    >
       Uh oh, there is nothing here. Incorrect link :/
     </Flex>
   );

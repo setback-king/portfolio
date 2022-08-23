@@ -26,7 +26,7 @@ import customTheme from './theme/theme';
 function App() {
   return (
     <ChakraProvider theme={customTheme}>
-      <Flex direction="column" h="100vh">
+      <Flex direction="column" h="100vh" className="body">
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />

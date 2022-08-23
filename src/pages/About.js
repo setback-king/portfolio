@@ -23,7 +23,13 @@ const About = () => {
   const [isNotSmallerScreen] = useMediaQuery('(max-width: 650px)');
 
   return (
-    <Flex flex="1" justify="center" p={4} bg={'blackAlpha.200'}>
+    <Flex
+      flex="1"
+      justify="center"
+      p={4}
+      bg={'blackAlpha.200'}
+      className="fade"
+    >
       <HStack gap={16}>
         {!isNotSmallerScreen && (
           <Flex direction="column" h="100%" p={4}>
