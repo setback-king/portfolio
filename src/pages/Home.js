@@ -70,10 +70,7 @@ const Home = () => {
         ></ReuseButton>
       </Box>
 
-      <Image
-        boxSize="200px"
-        src="./portfolio/assets/squiggle_icon_126929.png"
-      />
+      <Image boxSize="200px" src="/portfolio/assets/squiggle_icon_126929.png" />
     </Flex>
   );
 };
