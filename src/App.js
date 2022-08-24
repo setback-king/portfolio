@@ -29,12 +29,11 @@ function App() {
       <Flex direction="column" h="100vh" className="body">
         <Header />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/skills" element={<Skills />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/projects/:projectId" element={<ProjectPage />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/portfolio" element={<Home />} />
+          <Route path="/portfolio/about" element={<About />} />
+          <Route path="/portfolio/skills" element={<Skills />} />
+          <Route path="/portfolio/projects" element={<Projects />} />
+          <Route path="/portfolio/contact" element={<Contact />} />
           <Route path="*" element={<NoPath />} />
         </Routes>
         <Footer />

@@ -63,7 +63,7 @@ const Home = () => {
       </Flex>
       <Box className="slideRight">
         <ReuseButton
-          linkUrl="/about"
+          linkUrl="/portfolio/about"
           name="EXPLORE MY JOURNEY"
           ontStyle="italic"
           size="25px"
