@@ -47,6 +47,7 @@ export const ContactMe = () => {
   const formStyle = {
     display: 'flex',
     flexDirection: 'column',
+    padding: '15px',
     gap: '15px',
     width: '400px',
     marginBottom: '35px',
@@ -56,7 +57,7 @@ export const ContactMe = () => {
   const buttonBg = useColorModeValue('black', 'whiteAlpha.50');
 
   return (
-    <Flex direction="column" w="400px" bg="WhiteAlpha.50">
+    <Flex direction="column" w="400px" bg="WhiteAlpha.50" p={3}>
       <VStack gap={4} borderRadius="2em" p={6}>
         {!isSent ? (
           <VStack>
