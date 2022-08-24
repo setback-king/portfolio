@@ -36,9 +36,9 @@ const Header = () => {
     <Flex boxShadow="xl" alignItems="center" p={4} gap={4} bg={'whiteAlpha.50'}>
       {!hamburgerClicked || !isNotSmallerScreen ? (
         <HStack gap={5} direction="row">
-          <Link to="/">
+          <a href="/">
             <FaHome fontSize="25px" />
-          </Link>
+          </a>
           <a href="https://github.com/setback-king" target="_blank">
             <FaGithub fontSize="25px" />
           </a>
