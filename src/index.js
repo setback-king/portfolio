@@ -12,7 +12,7 @@ const root = ReactDOM.createRoot(container);
 
 root.render(
   <StrictMode>
-    <ColorModeScript initialColorMode="dark" />
+    <ColorModeScript initialColorMode="system" />
     <BrowserRouter>
       <App />
     </BrowserRouter>
