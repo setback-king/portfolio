@@ -29,7 +29,7 @@ function App() {
       <Flex direction="column" h="100vh" className="body">
         <Header />
         <Routes>
-          <Route path="/portfolio" element={<Home />} />
+          <Route path="portfolio" element={<Home />} />
           <Route path="/portfolio/about" element={<About />} />
           <Route path="/portfolio/skills" element={<Skills />} />
           <Route path="/portfolio/projects" element={<Projects />} />
