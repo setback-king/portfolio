@@ -56,7 +56,7 @@ const About = () => {
           <br />
           For the past year, I have been working tediously to fulfill my vision
           of becoming a front-end developer. During this period of learning, I
-          have continued to work on my family's flower and vegatable farm. All
+          have continued to work on my family's flower and vegetable farm. All
           my free time after work has been used to further my knowledge and
           skills of HTML, CSS, and Javascript. I am extremely grateful for the
           many online courses, Youtube Channels, Discord groups, etc. that have

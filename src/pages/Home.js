@@ -47,12 +47,17 @@ const Home = () => {
                 .callFunction(() => {
                   console.log('String typed out!');
                 })
-                .pauseFor(2500)
-                .callFunction(() => {
-                  console.log('All strings were deleted');
-                })
+                .pauseFor(2000)
+                .deleteAll()
+                .typeString('self-taught')
+                .pauseFor(2000)
+                .deleteAll()
+                .typeString('farmer to developer')
+                .pauseFor(2000)
+                .deleteAll()
                 .start();
             }}
+            options={{ loop: true }}
           />
         </Heading>
       </VStack>
@@ -64,6 +69,8 @@ const Home = () => {
       <Box className="slideRight">
         <ReuseButton
           linkUrl="/about"
+          color="teal"
+          variant="solid"
           name="EXPLORE MY JOURNEY"
           ontStyle="italic"
           size="25px"
