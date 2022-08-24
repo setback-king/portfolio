@@ -35,7 +35,7 @@ const Home = () => {
           borderRadius="full"
           border="solid 2px black"
           boxSize="150px"
-          src="./portfolio/assets/IMG_0269.JPG"
+          src="assets/IMG_0269.JPG"
           alt="Ben Zentek"
           objectFit="cover"
         />
@@ -63,14 +63,14 @@ const Home = () => {
       </Flex>
       <Box className="slideRight">
         <ReuseButton
-          linkUrl="/portfolio/about"
+          linkUrl="/about"
           name="EXPLORE MY JOURNEY"
           ontStyle="italic"
           size="25px"
         ></ReuseButton>
       </Box>
 
-      <Image boxSize="200px" src="/portfolio/assets/squiggle_icon_126929.png" />
+      <Image boxSize="200px" src="assets/squiggle_icon_126929.png" />
     </Flex>
   );
 };

@@ -31,9 +31,9 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/portfolio/skills" element={<Skills />} />
-          <Route path="/portfolio/projects" element={<Projects />} />
-          <Route path="/portfolio/contact" element={<Contact />} />
+          <Route path="/skills" element={<Skills />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<NoPath />} />
         </Routes>
         <Footer />
