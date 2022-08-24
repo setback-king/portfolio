@@ -35,7 +35,7 @@ const Home = () => {
           borderRadius="full"
           border="solid 2px black"
           boxSize="150px"
-          src="assets/IMG_0269.JPG"
+          src="portfolio/assets/IMG_0269.JPG"
           alt="Ben Zentek"
           objectFit="cover"
         />
@@ -70,7 +70,7 @@ const Home = () => {
         ></ReuseButton>
       </Box>
 
-      <Image boxSize="200px" src="assets/squiggle_icon_126929.png" />
+      <Image boxSize="200px" src="portfolio/assets/squiggle_icon_126929.png" />
     </Flex>
   );
 };
