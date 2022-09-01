@@ -35,7 +35,7 @@ const Home = () => {
           borderRadius="full"
           border="solid 2px black"
           boxSize="150px"
-          src="assets/IMG_0269.JPG"
+          src="assets/Screen Shot 2022-09-01 at 11.08.01 AM.png"
           alt="Ben Zentek"
           objectFit="cover"
         />
