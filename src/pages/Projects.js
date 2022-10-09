@@ -7,7 +7,6 @@ import { useState, useEffect } from 'react';
 
 const Projects = () => {
   const [isNotSmallerScreen] = useMediaQuery('(max-width: 650px)');
-  const [imgLoaded, setImgLoaded] = useState(false);
 
   const projectElements = ProjectsData.map(project => {
     return (
@@ -25,12 +24,6 @@ const Projects = () => {
     );
   });
 
-  useEffect(() => {
-    setTimeout(() => {
-      setImgLoaded(true);
-    }, 1500);
-  }, []);
-
   return (
     <Flex
       className="fade"
@@ -39,19 +32,7 @@ const Projects = () => {
       bg={'blackAlpha.200'}
       direction="column"
     >
-      {imgLoaded ? (
-        projectElements
-      ) : (
-        <Center mt="50px">
-          <Spinner
-            thickness="4px"
-            speed="0.65s"
-            emptyColor="gray.200"
-            color="blue.500"
-            size="xl"
-          />
-        </Center>
-      )}
+      {projectElements}
     </Flex>
   );
 };

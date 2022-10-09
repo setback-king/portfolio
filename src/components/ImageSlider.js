@@ -6,9 +6,9 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 const ImageSlider = ({ img, img2, img3 }) => {
   return (
     <Carousel infiniteLoop className="carousel">
-      <Image objectFit="contain" src={img} w="100%" h="400px" />
-      <Image objectFit="contain" src={img2} h="400px" w="100%" />
-      <Image objectFit="contain" src={img3} h="400px" w="100%" />
+      <Image objectFit="contain" src={img} w="100%" h="400px" loading="lazy" />
+      <Image objectFit="contain" src={img2} h="400px" w="100%" loading="lazy" />
+      <Image objectFit="contain" src={img3} h="400px" w="100%" loading="lazy" />
     </Carousel>
   );
 };
