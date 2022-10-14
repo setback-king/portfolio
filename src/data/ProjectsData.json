@@ -17,7 +17,7 @@
     "img3": "assets/dj-portfolio/Screen Shot 2022-08-23 at 3.37.48 PM.png",
     "img4": "",
     "description": "This interactive portfolio was created for a client. Using React and CSS, I was able to fulfill the vision that this client, a graphic designer, had in mind to showcase their past works.",
-    "live": "",
+    "live": "https://danielbarez.com",
     "code": "https://github.com/setback-king/dj-portfolio",
     "index": "2"
   },
