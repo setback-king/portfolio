@@ -54,24 +54,30 @@ const About = () => {
             From Farmer to Coder
           </Heading>
           <br />
-          For the past year, I have been working tediously to fulfill my vision
-          of becoming a front-end developer. During this period of learning, I
-          have continued to work on my family's flower and vegetable farm. All
-          my free time after work has been used to further my knowledge and
-          skills of HTML, CSS, and Javascript. I am extremely grateful for the
-          many online courses, Youtube Channels, Discord groups, etc. that have
-          assisted me in my learning journey. In particular, I am very thankful
-          for the team behind The Odin Project. Completing TOP immensely helped
-          me to become confident in my skills and to continuously challenge
-          myself. I can't wait to be able to give back to the community that has
-          helped me grow.
+          For the couple years, I have been working tediously to fulfill my
+          vision of becoming a front-end developer. During this period of
+          learning, I have continued to work on my family's flower and vegetable
+          farm. All my free time after work has been used to further my
+          knowledge and skills of HTML, CSS, and Javascript. I am extremely
+          grateful for the many online courses, Youtube Channels, Discord
+          groups, etc. that have assisted me in my learning journey. In
+          particular, I am very thankful for the team behind The Odin Project.
+          Completing TOP immensely helped me to become confident in my skills
+          and to continuously challenge myself. I can't wait to be able to give
+          back to the community that has helped me grow.
           <br />
           <br />
           <Heading fontStyle="italic" fontSize="22px">
             What's Next?
           </Heading>
           <br />
-          Finally, it is time for me to show employers what I am capable of.
+          Early on in my learning career, I began working at Sketro as a
+          software engineer. Sketro is a startup based in NYC with the goal of
+          giving everyone the power of animation by using Lotties. Although I
+          have learned a great deal and gained valuable experience, I believe it
+          is now time to begin employment at a company that has more opportunity
+          for career growth. I am grateful the Sketro team is understanding of
+          my wishes and has been encouraging throughout this career search.
           Although there is always more to learn, I am confident that my current
           level of knowledge and skills is more than adequate to provide value
           to a company. I am excited to begin this next step in my career.
